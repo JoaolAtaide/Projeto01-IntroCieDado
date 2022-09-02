@@ -2,6 +2,11 @@
 #Professor: Salvador Melo (https://www.linkedin.com/in/salvadormelo/)
 #Exercicio da aula de Introdução a Ciência de Dados
 
+#-----------------------------#
+#-----------------------------#
+#Aula 1
+#-----------------------------#
+#-----------------------------#
 
 #-----------------------------#
 #EX 1 - Matemática Básica
@@ -106,4 +111,67 @@ B <- 8
 C <- 6
 (-B+sqrt(B^2-4*A*C))/(2*A)
 (-B-sqrt(B^2-4*A*C))/(2*A)
+#-----------------------------#
+
+
+#-----------------------------#
+#-----------------------------#
+#Aula 2
+#-----------------------------#
+#-----------------------------#
+
+
+#-----------------------------#
+#EX 1 - Sequência
+#-----------------------------#
+#Sequência de 10 a 30
+Sequencia <- seq(10,30)
+print(Sequencia)
+
+#Sequência de 10 a 30, de 2 em 2
+Sequencia2 <- seq(10,30, by=2)
+print(Sequencia2)
+
+#Sequência de 1.5 a 7.9 de tamanho 20
+sequencia3 <- seq(1.5, 7.9, length=20)
+print(sequencia3)
+#-----------------------------#
+
+
+#-----------------------------#
+#EX 2 - Repetição
+#-----------------------------#
+#Repetir 5, 3 vezes
+print(rep(5, 3))
+
+#Repetir 1 a 5, 3 vezes
+print(rep(1:5, 3))
+
+#Repetir 1 a 5, 3 vezes cada
+print(rep(1:5, each=3))
+#-----------------------------#
+
+
+#-----------------------------#
+#EX 3 - Operações estatísticas
+#-----------------------------#
+Opera <- seq(1,100)
+
+#Mediana
+print(mean(Opera))
+
+#Desvio Padrão
+print(sd(Opera))
+
+#Máximo
+print(max(Opera))
+
+#Minimo
+print(min(Opera))
+
+#Soma
+print(sum(Opera))
+
+#Range (Primeiro e Último)
+print(range(Opera))
 #-----------------------------#
